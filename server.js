@@ -10,7 +10,7 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 
 const app = express();
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://cv-process-sys.vercel.app" }));
 
 app.use(express.json());
 
